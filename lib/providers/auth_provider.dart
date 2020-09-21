@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 class AuthProvider with ChangeNotifier {
   final String baseUrl = 'https://identitytoolkit.googleapis.com/v1/accounts:';
-  final String key = 'AIzaSyDPCyIAeVUq3vNAoEgnMw-V-gp96QQVoOQ';
+  final String key = '';
 
   String _userId;
   String _token;
